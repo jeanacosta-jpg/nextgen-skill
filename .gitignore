@@ -1,0 +1,17 @@
+# Never commit data or credentials (NextGen data is PHI)
+.env
+.env.*
+!.env.example
+output/
+output_pruned/
+bookmarks/
+*.csv
+*.parquet
+
+# The source swagger stays in nextgen-platform; only the derived index ships here
+reference/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
