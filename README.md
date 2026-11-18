@@ -12,7 +12,12 @@ reuse the repo's library.
 
 ## Install
 
-Requires Python 3.8+ and Claude Code.
+Requires Python 3.8+ and Claude Code. The repo is private: ask the owner for access.
+
+```sh
+git clone https://github.com/jeanacosta-jpg/nextgen-skill.git
+cd nextgen-skill
+```
 
 ```powershell
 # Windows
